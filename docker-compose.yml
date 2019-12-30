@@ -17,4 +17,4 @@ services:
       POSTGRES_PASSWORD: example
       POSTGRES_DATABASE: weblate
       POSTGRES_HOST: localhost 
-      POSTGRES_USER
+      POSTGRES_USER: postgres

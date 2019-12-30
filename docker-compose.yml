@@ -26,6 +26,6 @@ services:
       WEBLATE_DEFAULT_FROM_EMAIL: weblate@local.com
       POSTGRES_PASSWORD: example
       POSTGRES_DATABASE: weblate
-      POSTGRES_HOST: localhost 
+      POSTGRES_HOST: postgres 
       POSTGRES_USER: postgres
       POSTGRES_PORT: 5432

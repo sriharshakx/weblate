@@ -17,6 +17,7 @@ services:
       WEBLATE_ADMIN_NAME: Admin
       WEBLATE_ADMIN_EMAIL: admin@local.com
       WEBLATE_SERVER_EMAIL: weblate@local.com
+      WEBLATE_DEFAULT_FROM_EMAIL: weblate@local.com
       POSTGRES_PASSWORD: example
       POSTGRES_DATABASE: weblate
       POSTGRES_HOST: localhost 

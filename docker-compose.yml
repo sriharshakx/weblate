@@ -12,5 +12,6 @@ services:
     environment:
       WEBLATE_ALLOWED_HOSTS: localhost
       WEBLATE_ADMIN_PASSWORD: admin
+      WEBLATE_ADMIN_NAME: Admin
       WEBLATE_ADMIN_EMAIL: admin@local.com
       POSTGRES_PASSWORD: example

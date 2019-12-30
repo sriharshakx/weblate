@@ -8,6 +8,7 @@ services:
       - 5432:5432
     environment:
       POSTGRES_PASSWORD: example 
+    vo
   redis:
     container_name: cache
     image: redis 

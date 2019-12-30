@@ -16,3 +16,4 @@ services:
       WEBLATE_ADMIN_EMAIL: admin@local.com
       POSTGRES_PASSWORD: example
       POSTGRES_DATABASE: weblate
+      POSTGRES_HOST: localhost 

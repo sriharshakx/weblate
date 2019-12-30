@@ -3,6 +3,8 @@ services:
   postgresql:
     image: postgres
     restart: always
+    ports: 
+      
     environment:
       POSTGRES_PASSWORD: example 
   weblate:
@@ -18,3 +20,4 @@ services:
       POSTGRES_DATABASE: weblate
       POSTGRES_HOST: localhost 
       POSTGRES_USER: postgres
+      POSTGRES_PORT: 

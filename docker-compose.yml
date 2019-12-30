@@ -21,7 +21,7 @@ services:
     ports:
       - 80:8080
     environment:
-      WEBLATE_ALLOWED_HOSTS: localhost,34.68.22.78
+      WEBLATE_ALLOWED_HOSTS: localhost,ci-bhim.local
       WEBLATE_ADMIN_PASSWORD: admin
       WEBLATE_ADMIN_NAME: Admin
       WEBLATE_ADMIN_EMAIL: admin@local.com

@@ -12,4 +12,5 @@ services:
     environment:
       WEBLATE_ALLOWED_HOSTS: localhost
       WEBLATE_ADMIN_PASSWORD: admin
-      WEBLATE_ADMIN_EMAIL: weblate.admin@example.com
+      WEBLATE_ADMIN_EMAIL: admin@local.com
+      

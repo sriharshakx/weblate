@@ -20,7 +20,7 @@ services:
     ports:
       - 80:8080
     environment:
-      WEBLATE_ALLOWED_HOSTS: localhost
+      WEBLATE_ALLOWED_HOSTS: localhost, 0.0.0.0
       WEBLATE_ADMIN_PASSWORD: admin
       WEBLATE_ADMIN_NAME: Admin
       WEBLATE_ADMIN_EMAIL: admin@local.com

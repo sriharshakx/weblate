@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_PASSWORD: example 
     volumes:
-      - postgresql:/var/lib/postgresql
+      - /home/centos/data:/var/lib/postgresql
   redis:
     container_name: cache
     image: redis 

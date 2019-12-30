@@ -7,4 +7,5 @@ services:
       POSTGRES_PASSWORD: example 
   weblate:
     image: weblate/weblate 
-    
+    ports:
+      

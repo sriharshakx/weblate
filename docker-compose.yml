@@ -7,6 +7,8 @@ services:
       - 5432:5432
     environment:
       POSTGRES_PASSWORD: example 
+  redis:
+    image: redis
   weblate:
     image: weblate/weblate 
     ports:
